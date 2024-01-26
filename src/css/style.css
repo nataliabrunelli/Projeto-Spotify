@@ -1,0 +1,166 @@
+body {
+  background-color: #000;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 12px;
+  width: 300px;
+}
+
+.sidebar-navigation {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px 0px 0px 16px;
+}
+
+.logo {
+  background-color: #121212;
+  display: flex;
+  border-radius: 8px;
+  padding: 16px 0px 0px 16px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sidebar li {
+    padding: 10px 0px;
+}
+
+.sidebar ul a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.icone {
+  margin-right: 10px;
+}
+
+.biblioteca {
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.biblioteca-conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.biblioteca-botao {
+  display: flex;
+  color: #b3b3b3;
+  background-color: transparent;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: 0;
+  padding: 20px 10px; 
+  cursor: pointer;
+}
+
+.texto-botao {
+  margin-right: 130px;
+}
+
+.playlist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #242424;
+  border-radius: 8px;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 0px;
+  padding: 16px 20px;
+}
+
+.playlist-conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto {
+  padding-bottom: 14px;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.titulo {
+  font-weight: 700;
+}
+
+.subtitulo {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.playlist-botao {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  width: 113px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.cookies {
+  margin: 25px 20px;
+}
+
+.cookies a {
+  color: #b3b3b3;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cookies a:hover {
+  text-decoration: underline;
+}
+
+.idioma-botao {
+  background-color: transparent;
+  border: 1px solid #878788;
+  border-radius: 20px;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  margin: 8px;
+  padding: 10px;
+}
