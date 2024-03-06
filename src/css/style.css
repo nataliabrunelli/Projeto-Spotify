@@ -90,6 +90,7 @@ body {
   text-transform: 0;
   padding: 20px 10px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .biblioteca-botao:hover {
@@ -213,6 +214,38 @@ body {
   margin-right: 1.25rem;
 }
 
+.navigation p {
+  color: #fff;
+  background-color: #242424;
+  /* width: 60px; */
+  padding: 5px;
+  box-shadow: 0px 5px 10px #000;
+  border-radius: 4px;
+  position: absolute;
+  opacity: 0;
+}
+
+.arrow-left p {
+  width: 60px;
+}
+
+.arrow-right p {
+  width: 80px;
+}
+
+.arrow-left:hover {
+  border: 1px solid #242424;
+}
+
+.arrow-right:hover {
+  border: 1px solid #242424;
+}
+
+.navigation p:hover {
+  opacity: 0.8;
+  bottom: -35px;
+}
+
 .arrow-left,
 .arrow-right {
   display: flex;
@@ -220,11 +253,11 @@ body {
   align-items: center;
   width: 32px;
   height: 32px;
-  background: #131313;
   background-color: rgba(0, 0, 07);
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  position: relative;
 }
 
 .header-search {
@@ -311,14 +344,14 @@ body {
 }
 
 .playlist #greeting {
-  color: var(--text-base-light);
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .playlist .session {
-  color: var(--text-base-light);
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
 }
@@ -343,14 +376,12 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
   margin-bottom: 16px;
-  margin: 0 auto;
 }
 
 .cards-lista img {
   position: absolute;
   right: 0;
   bottom: 0;
-  height: auto;
   width: 107px;
   transform: rotate(25deg) translate(18%, -2%);
 }
@@ -361,6 +392,11 @@ body {
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
+}
+
+.cards:hover {
+  background-color: ;
+  box-shadow: 3px 3px 3px #87878873;
 }
 
 .cards span {
@@ -456,4 +492,8 @@ body {
   border-radius: 40px;
   cursor: pointer;
   flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+  transform: scale(1.04);
 }
